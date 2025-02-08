@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<script type="module" src="./index.js"></script>
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="canvas_container"></div>
+
+		<div id="status_container">
+            <div id="stat">
+				<h2>Status : </h2>
+				<br>
+				<div id="create_shape">
+					<div id="create_shape_text">Create Shape : On</div>
+					<button id="btn_create_shape">Turn off</button>
+				</div>
+				
+				<div id="max_shape_containeer">
+					<div id="max_shapes">Max Shapes : 3</div>
+					<button id="btn_increase_max">+</button>
+					<button id="btn_decrease_max">-</button>
+				</div>
+
+				<div id="indicator_status">Indicator Status : Show</div>
+				<br>
+				<div id="status_selected_shape">Shape Selected: None</div>
+				<div id="status_total_shapes">Total Shapes: 0</div>
+				<br>
+				<br>
+				<button id="btn_select_all">Select All</button>
+				<button id="btn_unselect_all">Unselect All</button>
+				<button id="btn_delete_all">Delete All Shapes</button>
+			</div>
+
+			<br>
+			<br>
+			<br>
+			<br>
+			<ul>
+				<li>
+					<div>For creating shapes, use left click to create points on canvas or press 'c' to initiate first point then use up and down arrow to rotate indicator and left and right arrow to move indicator. Right click to finalize the shape and fill it with color.</div>
+				</li>
+				<li>
+					<div>Press 'h' to show or hide indicator.</div>
+				</li>
+				<li>
+					<div>Middle click on mouse to select shape.</div>
+				</li>
+				<li>
+					<div>After selecting, hold 's' and use mouse wheel to scale up or down.</div>
+				</li>
+				<li>
+					<div>After selecting, hold 'r' and use mouse wheel to rotate in any direction.</div>
+				</li>
+				<li>
+					<div>After selecting, use arrow keys to translate.</div>
+				</li>
+				<li>
+					<div>After selecting, press 'z' to bring shape to front.</div>
+				</li>
+				<li>
+					<div>After selecting, press 'x' to move shape to back.</div>
+				</li>
+			</ul>
+			
+
+        </div>
+	</div>
+	
+</body>
+
+</html>
